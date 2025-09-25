@@ -1,5 +1,4 @@
 from workers import WorkerEntrypoint, Response
-import requests
 from requests.models import Response as sResponse
 
 class Default(WorkerEntrypoint):
